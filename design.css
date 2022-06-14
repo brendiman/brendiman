@@ -1,0 +1,187 @@
+
+/* PARTIES */
+header{
+    text-align: center;
+    background-color:#1d1d1d;
+    color:white;
+    
+}
+
+nav {
+    text-align: center;
+    font-size: 1.1em;
+    background-color: white;
+    box-shadow: 0px 3px 1px -1px black rgba(0, 0, 0,0.5);
+    padding: 15px;
+}
+
+
+body{
+    font-family: 'roboto1', sans-serif;
+    font-size: 1.2em;
+    background-color: #f4f7f6;
+    color:black;
+}
+section{
+    text-align: center;
+}
+
+footer{
+    background-color: #1d1d1d;
+    color:white;
+    padding: 15px;
+}
+    
+/* H1-2-3 */
+h1 { 
+   
+    font-family: 'harukaze';
+    text-align: center;
+    font-size: 4em;
+}
+
+h2 {
+
+    font-size:1.5em;
+}
+
+h3{
+    font-size:1.5em;
+
+}
+
+
+/* LISTE NAVIGATION */
+
+ #nav { /* UL   */
+    padding:0;
+    display:inline;
+}
+#navi{ /* Li*/
+    
+    display: inline;
+    margin:10px;
+}
+#navi:hover{
+    font-weight: bold;
+    color:violet;
+}
+
+
+/* LIENS */
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color:purple;
+}
+
+/* POLICES INSTALLES */
+@font-face  {
+    font-family:'roboto2';
+    src: url('src/roboto2.ttf') format('truetype');
+ 
+}
+@font-face  {
+    font-family:'roboto1';
+    src: url('src/roboto1.ttf') format('truetype');
+   
+ 
+}
+@font-face  {
+    font-family: 'harukaze';
+    src:url('src/harukaze.ttf') format('truetype');
+
+}
+/* CLASSES */
+.separator{
+    width: 40px;
+    height: 1px;
+    margin:15px auto;
+    display: block;
+    background: #999999;
+    
+}
+.contener{
+    width:80%;
+    margin:auto;
+}
+
+.workout{
+    width: 400px;
+    margin: 30px;
+    display:inline-block;
+    background-color: white;
+    padding-bottom: 15px;
+    border:0px black solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  
+}
+
+.workout:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition:0.3s;
+
+    
+    /* MATERIAL DESIGN BOX SHADOW */
+}
+.workout span{
+    text-transform: uppercase;
+    display:block;
+}
+.workout img{
+    min-width:400px;
+    height: 266px;
+}
+.picture{
+    width: 400px;
+    height: 266px;
+    /* tout ce qui va au-delà sera caché */
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:650px;
+    height:450px;
+    border-radius: 15px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+/* ID */
+#contact{
+    border: 1px black solid;
+    border-radius: 15px;
+    padding:30px;
+    margin-bottom: 50px;
+}
+#logo{ 
+    width:100px;
+    height: 100px;
+   
+}
+#workouts{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+#validation{
+    
+    margin: 500px;
+}
+#bg-image{
+    background-image: url('https://image.shutterstock.com/image-vector/fitness-center-seamless-pattern-background-260nw-1165874878.jpg');
+}
+
+
+/* Application sur toute la page, adapté les bordures de la boîte aux tél etc */
+*{
+    box-sizing: border-box;
+    
+}
